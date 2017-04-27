@@ -1,0 +1,138 @@
+html {
+  min-width: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-shadow: 3px 3px 3px #1b4765;
+  font-size: 52pt;
+  color: #FFF;
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+.palkkimenu li{
+  height: 40px;
+  min-width: 100px;
+  width: 150px;
+  padding: 0px;
+  text-align: center;
+  margin-top: 5px;
+  background-color: #255f85;
+  display: block;
+  position: relative;
+  box-shadow: 1px 3px 3px black;
+  border-radius: 2px;
+  color: #FFF;
+}
+.ylamenu li {
+  float: left;
+  height: 40px;
+  width: 19%;
+  padding: 0;
+  text-align: center;
+  margin-top: 125px;
+  margin-right: 0.85%;
+  background-color: #4a84af;
+  display: block;
+  box-shadow: 1px 3px 3px black;
+  border-radius: 2px
+}
+li:hover{
+  background-color: #4a84af;
+}
+.ylamenu li:hover{
+  background-color: #3b6b8f;
+}
+
+ul{
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.palkkimenu a{
+  background-color: grey;
+}
+
+.ylamenu a{
+  background-color: grey;
+}
+.ylamenu{
+  width: 75%;
+  padding: 0;
+  margin-left: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10%;
+}
+
+.palkkimenu {
+  padding-left: 0;
+}
+
+.kaikki {
+  background-color: grey;
+  background-image: url(kuva.JPG);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.palkki {
+  background-color: rgba(#a2a2a2, 0);
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  min-height: 100%;
+  float: left;
+  align-items: stretch;
+}
+
+.palkkimenu p {
+  padding-top: 8px;
+  font-size: 15pt;
+  font-family: verdana;
+}
+
+.ylamenu p {
+  font-size: 15pt;
+  font-family: verdana;
+  margin: 10px;
+}
+
+.yla {
+  height: 200px;
+  width: 100%;
+  background-color: #c2ae89;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.keski {
+  width: 75%;
+  height: 100%;
+  background-color: rgba(166, 166, 166, 0.70);
+  margin: 0;
+  padding: 0;
+  margin-left: 50px;
+  float: left;
+}
+
+.keski p, h2 {
+  margin: 20px;
+}
